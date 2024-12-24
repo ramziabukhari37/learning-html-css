@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project2</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .page-name-tag {
+        display: flex;
+        justify-content: space-between;
+      }
+      .content {
+        left: 180px;
+        position: fixed;
+      }
+      .side-bar {
+        left: 0;
+        top: 30px;
+        bottom: 50px;
+
+        position: fixed;
+        width: 150px;
+        z-index: 1;
+        text-align: left;
+        display: block;
+        border: solid;
+        height: 85vh;
+        margin-left: 10px;
+        padding-left: 0px !important;
+        cursor: pointer;
+      }
+      .menu-tag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-width: 1px;
+        border-bottom: solid;
+      }
+      .menu {
+        color: rgb(70, 169, 246);
+      }
+      .list {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .list-item {
+        color: white;
+      }
+      .list-item:hover {
+        background-color: rgb(70, 169, 246);
+        color: white;
+      }
+      a:link {
+        text-decoration: none;
+        color: white;
+      }
+      .edit-button {
+        padding: 9px 12px;
+        background-color: hsla(240, 91%, 51%, 0.764);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        border: solid gray;
+        border-radius: 8px;
+      }
+      .Export-button {
+        position: fixed;
+        bottom: 0;
+        margin-top: 10px;
+        width: 50px;
+      }
+      .Export {
+        background-color: hsla(240, 91%, 51%, 0.764);
+        color: white;
+        border: solid gray;
+        border-radius: 8px;
+        font-weight: bold;
+        padding: 6px 56px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="content">
+        <div class="page-name-tag">
+          <p>Page Name</p>
+          <button class="edit-button">Edit</button>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab illum,
+            libero esse accusantium aliquam aspernatur iusto, velit nobis
+            tenetur, assumenda explicabo quasi debitis eligendi laborum maxime?
+            Laudantium vero vel quas? Consequuntur molestiae expedita eum
+            doloribus libero doloremque provident, nostrum, consequatur animi
+            ducimus asperiores similique voluptates aut autem numquam
+            reprehenderit inventore eius dolorem placeat minima iste ab? Quidem
+            totam aspernatur inventore? Possimus, pariatur praesentium id
+            explicabo placeat earum debitis, eligendi dolores consequatur
+            veritatis sed provident quo reprehenderit? Facilis at reiciendis
+            itaque, quis sint velit voluptatibus assumenda reprehenderit tenetur
+            eos voluptates eligendi! Impedit repellendus aperiam dolore ullam
+            quia, voluptatem facere dolor minima. Sapiente sit excepturi quam
+            eveniet nisi. Officia ipsa laudantium praesentium atque ullam a
+            aliquid consequuntur est animi corrupti, nisi modi? Molestias,
+            saepe, natus, eveniet blanditiis tempore architecto quibusdam
+            nesciunt suscipit sed illum est distinctio aliquam non quae
+            assumenda nisi? Saepe provident expedita laboriosam neque iste
+            incidunt ipsam sit, minus sunt. Consequatur sint reiciendis delectus
+            quod beatae doloribus autem quibusdam ab harum adipisci perferendis
+            repellat rem dolorum, reprehenderit est soluta debitis asperiores
+            nihil. Quo quos unde optio sint suscipit ad qui.
+          </p>
+        </div>
+      </div>
+      <nav class="side-bar">
+        <div class="menu-tag"><div class="menu">Menu</div></div>
+        <ul class="list">
+          <li class="list-item"><a href="page1.html">Page 1</a></li>
+          <li class="list-item"><a href="page1.html">Page 2</a></li>
+          <li class="list-item"><a href="page1.html">Page name</a></li>
+          <li class="list-item"><a href="page1.html">Another Page</a></li>
+        </ul>
+      </nav>
+      <div class="Export-button"><button class="Export">Export</button></div>
+    </div>
+  </body>
+</html>

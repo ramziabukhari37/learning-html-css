@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://127.0.0.1:5500/thumbnail-pictures/projectyoutube/project1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    
+  <link rel="stylesheet" href="./Project_files/page.css"></head>
+  <body cz-shortcut-listen="true">
+    <div>
+      <div class="content">
+        <div class="heading">
+          <p>Page Name</p>
+          <button>Edit</button>
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maiores
+          ratione dignissimos magnam maxime, accusamus cumque officiis eligendi
+          aspernatur quo ipsa repellat nesciunt voluptatibus eos dolores
+          mollitia! Quam, commodi cupiditate? Pariatur voluptates et fuga
+          maiores! Obcaecati maiores corporis dolorem aspernatur, ducimus, ipsam
+          fugiat consequatur tenetur officiis quae dolores tempora, laboriosam
+          aut! Corporis, et? Sed rem architecto, necessitatibus distinctio
+          maiores optio? Quaerat dolores, cupiditate ad aperiam nam harum modi
+          omnis nihil ut qui sunt corporis non accusamus vero? Facere quam
+          consectetur harum sit repellat voluptatibus, odio tempore doloremque
+          debitis minus cumque. Repudiandae nihil debitis doloremque, voluptate
+          deleniti autem labore quidem alias, aliquid enim ducimus nam odit
+          praesentium illo. Incidunt pariatur maiores libero, minus eius
+          doloremque consectetur reiciendis tempora inventore possimus nostrum.
+          Unde odit animi laborum, libero harum, distinctio minima cumque
+          dolorum laudantium adipisci eaque hic rem eveniet omnis, cupiditate
+          voluptatem. Distinctio error, in quam voluptate temporibus eius neque
+          autem? Quasi, non!
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <div class="menu-tag">Menu</div>
+        <ul>
+          <li>Page 1</li>
+          <li>Page 2</li>
+          <li>Page Name</li>
+          <li>Another Page</li>
+        </ul>
+      </nav>
+      <div class="export-button"><button>Export</button></div>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

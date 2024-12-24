@@ -1,0 +1,39 @@
+body {
+  height: 2000px;
+  width: 2000px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  left: 170px;
+  position: fixed;
+}
+.nav-bar {
+  background-color: antiquewhite;
+  border: solid;
+  border-width: 1px;
+
+  left: 20;
+
+  bottom: 40px;
+  top: 20px;
+  position: fixed;
+  width: 140px;
+}
+.export-button {
+  display: flex;
+
+  position: fixed;
+  bottom: 10px;
+}
+.menu-tag {
+  display: block;
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+}
+.navbar-items {
+  text-decoration: none;
+}

@@ -1,0 +1,37 @@
+/* body {
+  height: 2000px;
+  width: 2000px;
+} */
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  left: 170px;
+  position: fixed;
+}
+.nav-bar {
+  background-color: antiquewhite;
+  border: solid;
+  border-width: 1px;
+  height: 85vh;
+  position: fixed;
+  width: 140px;
+}
+.export-button {
+  display: flex;
+
+  position: fixed;
+  bottom: 10px;
+}
+.menu-tag {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  border-bottom: solid;
+  border-width: 1px black;
+}
+.navbar-items {
+  list-style: none;
+}
